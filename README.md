@@ -16,19 +16,19 @@ All of the tests are commented out.  Work through the critter classes in the ord
 
 
 ## Critter Order
-`unicorn`
-`vampire`
-`dragon`
-`hobbit`
-`pirate`
-`wizard`
-`medusa`
-`werewolf`
-`centaur`
-`direwolf`
-`fairy`
-`ogre`
-`sphinx`
+-unicorn
+-vampire
+-dragon
+-hobbit
+-pirate
+-wizard
+-medusa
+-werewolf
+-centaur
+-direwolf
+-fairy
+-ogre
+-sphinx
 
 ##Extra Challenges
 The `if` Statement
