@@ -74,17 +74,17 @@ public with sharing class WerewolfTest {
     // Victim victim = new Victim('TayTay');
     // Assert.areEqual(victim.alive, true);
   }
+    // End Victim Tests
 
   @isTest
   public static void shouldBeDeadAfterBeingEaten() {
-    // Werewolf werewolf = new Werewolf('TayTay');
+    // Werewolf werewolf = new Werewolf('Andy');
     // Victim victim = new Victim('TayTay');
 
     // werewolf.change();
     // werewolf.eat(victim);
     // Assert.areEqual(victim.alive, false);
   }
-  // End Victim Tests
 
   @isTest
   public static void shouldBeAbleToEatVictimOnceHungry() {

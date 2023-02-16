@@ -18,7 +18,7 @@ public with sharing class WizardTest {
     // Wizard wizard = new Wizard('Jhun');
     // wizard.shave();
 
-    // Assert.areEqual(wizard.bearded, false)
+    // Assert.areEqual(wizard.bearded, false);
   }
 
   @isTest

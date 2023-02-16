@@ -7,13 +7,6 @@ public with sharing class MedusaTest {
     // Assert.areEqual(medusa.name, 'Bree');
   }
 
-  @isTest
-  public static void shouldStartWithNoStatues() {
-    // Medusa medusa = new Medusa('Taytay');
-    // Assert.areEqual(medusa.name, 'Taytay');
-    // Assert.areEqual(medusa.statues.isEmpty());
-  }
-
   // Note these 2 tests are for Persons
   @isTest
   public static void shouldHaveANamePerson() {
@@ -32,9 +25,18 @@ public with sharing class MedusaTest {
   }
 
   @isTest
+  public static void shouldStartWithNoStatues() {
+    // Medusa medusa = new Medusa('Taytay');
+    // Assert.areEqual(medusa.name, 'Taytay');
+
+    // Note - statues are Medusa's collection of Persons
+    // Assert.isTrue(medusa.statues.isEmpty());
+  }
+
+  @isTest
   public static void shouldGainAStatueWhenStaringAtAPerson() {
     // Medusa medusa = new Medusa('Brenna');
-    // Medusa victim = new Person('Jhun');
+    // Person victim = new Person('Jhun');
 
     // medusa.stare(victim);
 
