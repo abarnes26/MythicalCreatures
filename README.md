@@ -1,18 +1,38 @@
-# Salesforce DX Project: Next Steps
+# Mythical Critters
+Each exercise emphasizes the fundamentals of object oriented programming in Apex.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Installation Steps
+- Start by "forking" this repo.
+- Then sign up for a new Developer Org here - https://developer.salesforce.com/signup
+- Once you've verified your org and set up your credentials, create a new project with manafest in VS Code and connect it to your new dev org.
+- Once there, set your git origin to the Mythical Creatures repo that you forked.  Once you're connected, pull down the master branch.  
 
-## How Do You Plan to Deploy Your Changes?
+## Running the Tests
+All of the tests are commented out.  Work through the critter classes in the order outlined below creating supporting Apex classes for each set of requirements.  
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Some Important Notes
+- Aside from a few tests methods which require you to create your own tests, You should not edit any of the test class content aside from uncommenting the code in each one.
+- You will *not* be creating any of the classes in the Salesforce OBject Manager.  All of these tests should be satisfied using Apex based classes.
 
-## Configure Your Salesforce DX Project
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Critter Order
+`unicorn`
+`vampire`
+`dragon`
+`hobbit`
+`pirate`
+`wizard`
+`medusa`
+`werewolf`
+`centaur`
+`direwolf`
+`fairy`
+`ogre`
+`sphinx`
 
-## Read All About It
+##Extra Challenges
+The `if` Statement
+Can you complete implementations of each of the critters without using `if` statements? Think about how removing them affects your code. (Note: using a ternary instead is not sufficient here; under the hood it's the same thing.)
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Imagine Two Critters
+Can you add two new critters to the repository? How about a Hydra? Add unit tests exercising some of the following concepts:
