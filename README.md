@@ -15,7 +15,7 @@ All of the tests are commented out.  Work through the critter classes in the ord
 - You will *not* be creating any of the classes in the Salesforce OBject Manager.  All of these tests should be satisfied using Apex based classes.
 
 
-## Critter Order
+## Critter Order (by difficulty)
 - unicorn
 - vampire
 - dragon
