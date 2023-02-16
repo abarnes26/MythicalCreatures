@@ -16,23 +16,23 @@ All of the tests are commented out.  Work through the critter classes in the ord
 
 
 ## Critter Order
--unicorn
--vampire
--dragon
--hobbit
--pirate
--wizard
--medusa
--werewolf
--centaur
--direwolf
--fairy
--ogre
--sphinx
+- unicorn
+- vampire
+- dragon
+- hobbit
+- pirate
+- wizard
+- medusa
+- werewolf
+- centaur
+- direwolf
+- fairy
+- ogre
+- sphinx
 
-##Extra Challenges
-The `if` Statement
+## Extra Challenges
+### The `if` Statement
 Can you complete implementations of each of the critters without using `if` statements? Think about how removing them affects your code. (Note: using a ternary instead is not sufficient here; under the hood it's the same thing.)
 
-Imagine Two Critters
+### Imagine Two Critters
 Can you add two new critters to the repository? How about a Hydra? Add unit tests exercising some of the following concepts:
