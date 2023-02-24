@@ -5,7 +5,7 @@ Each exercise emphasizes the fundamentals of object oriented programming in Apex
 - Start by "forking" this repo.
 - Then sign up for a new Developer Org here - https://developer.salesforce.com/signup
 - Once you've verified your org and set up your credentials, create a new project with manafest in VS Code and connect it to your new dev org.
-- Once there, set your git origin to the Mythical Creatures repo that you forked.  Once you're connected, pull down the master branch.  
+- Once there, set your git remote to the Mythical Creatures repo that you forked.  Once you're connected, pull down the master branch.  
 
 ## Running the Tests
 All of the tests are commented out.  Work through the critter classes in the order outlined below creating supporting Apex classes for each set of requirements.  
