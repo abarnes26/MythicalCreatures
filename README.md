@@ -10,9 +10,11 @@ Each exercise emphasizes the fundamentals of object oriented programming in Apex
 ## Running the Tests
 All of the tests are commented out.  Work through the critter classes in the order outlined below creating supporting Apex classes for each set of requirements.  
 
+For example to complete the first Test for Unicorns, create an Apex class with the appropriate constructor and class level attributes to satisfy line 6 and line 7 in the test.  Uncomment line 6 and line 7 in the test and deploy the test class to your org.  Once deployment is successful, run the test to verify it's working as expected.
+
 ## Some Important Notes
 - Aside from a few tests methods which require you to create your own tests, You should not edit any of the test class content aside from uncommenting the code in each one.
-- You will *not* be creating any of the classes in the Salesforce OBject Manager.  All of these tests should be satisfied using Apex based classes.
+- You will *not* be creating any of the creatures in the Salesforce Object Manager.  All of these tests should be satisfied using Apex based classes.
 
 
 ## Critter Order (by difficulty)
